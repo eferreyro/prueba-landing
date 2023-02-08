@@ -1,12 +1,15 @@
 /* Definiendo colores BASE del proyecto */
 /* :PSeudoselectores */
 :root {
+  /* Paleta de Colores */
   --blanco: #ffffff;
   --oscuro: #212121;
   --gray: #a4a1a7;
   --primary: #ffc107;
   --secondary: #d42026;
   --base: #26bfa7;
+  /* tamano de fuentes */
+  --fuente-principal: 3.8rem;
 }
 
 /* Reinicio los tamaños */
@@ -19,7 +22,7 @@ body {
 /* Fuente */
 .titulo {
   text-align: center;
-  font-size: 3.8rem;
+  font-size: var(--fuente-principal);
   font-family: "Prompt", sans-serif;
 }
 /* Alineo el encabezado */
